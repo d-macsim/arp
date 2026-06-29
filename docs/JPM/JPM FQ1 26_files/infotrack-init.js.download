@@ -1,0 +1,121 @@
+/**
+ * InfoTrack Initialization Script
+ *
+ * This script initializes the InfoTrack analytics system. It's loaded from a separate file
+ * instead of using dangerouslySetInnerHTML for better security and maintainability.
+ */
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Called externally by OneTrust cookie consent
+function OptanonWrapper() {
+  var t;
+  if (window.infotrackInitialized || void 0 === window.Infotrack) {
+    window.Infotrack.setSegmentIntegrations();
+  } else {
+    window.infotrackInitialized = !0;
+    Infotrack.load(
+      "https://g.foolcdn.com/mms/resources/js/infotrack-ot_min.js"
+    );
+    t = t || 0;
+    setTimeout(function () {
+      window.Infotrack.initialize(window.infotrackProjectName);
+    }, t);
+  }
+}
+
+if (window.top != window) {
+  window.analytics = window.top.analytics;
+  window.inIframe = !0;
+}
+
+/* eslint-disable @typescript-eslint/no-unused-vars -- Used by external analytics system */
+var segmentKey = window.infotrackSegmentKey,
+  segmentSnippetVersion = "4.15.2";
+
+function getSegmentUrl(t) {
+  t = t || window.segmentKey;
+  return (
+    ("https:" === document.location.protocol ? "https://" : "http://") +
+    "evs.pink-boat.fool.com/analytics.js/v1/" +
+    t +
+    "/analytics.min.js"
+  );
+}
+/* eslint-enable @typescript-eslint/no-unused-vars */
+
+function trackerMaker(t) {
+  function n(n) {
+    function t() {
+      var t = Array.prototype.slice.call(arguments, 0),
+        t = [n].concat(t);
+      e.push(t);
+    }
+    return (t.stub = !0), t;
+  }
+
+  var e = [];
+  e.invoked = !1;
+  e.methods = [
+    "trackSubmit",
+    "trackClick",
+    "trackLink",
+    "trackForm",
+    "pageview",
+    "identify",
+    "reset",
+    "group",
+    "track",
+    "ready",
+    "alias",
+    "debug",
+    "page",
+    "once",
+    "off",
+    "on"
+  ];
+
+  if (t) {
+    e.methods = e.methods.concat(t);
+  }
+
+  for (var o = 0; o < e.methods.length; o++) {
+    var i = e.methods[o];
+    e[i] = n(i);
+  }
+
+  e.load = function (t) {
+    var n;
+    if (e.invoked) {
+      if (window["console"] && window["console"].error) {
+        window["console"].error(
+          JSON.stringify({
+            level: "error",
+            message: "infotrackInit.trackingSnippetIncludedTwice"
+          })
+        );
+      }
+    } else {
+      n = document.createElement("script");
+      n.type = "text/javascript";
+      n.async = !0;
+      n.src = t;
+      t = document.getElementsByTagName("script")[0];
+      t.parentNode.insertBefore(n, t);
+      e.invoked = !0;
+    }
+  };
+
+  return e;
+}
+
+// Initialize trackers
+window.analytics =
+  window.analytics ||
+  trackerMaker([
+    "addSourceMiddleware",
+    "addIntegrationMiddleware",
+    "setAnonymousId",
+    "addDestinationMiddleware"
+  ]);
+
+window.Infotrack =
+  window.Infotrack || trackerMaker(["initialize", "setSegmentIntegrations"]);

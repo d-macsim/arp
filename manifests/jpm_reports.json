@@ -1,0 +1,38 @@
+{
+  "issuer": "jpm",
+  "reports": [
+    {
+      "issuer": "jpm",
+      "company": "JPMorgan Chase & Co.",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-11",
+      "source_pdf": "docs/JPM/JPM FQ1 25.pdf",
+      "document_id": "JPM_FQ1_2025"
+    },
+    {
+      "issuer": "jpm",
+      "company": "JPMorgan Chase & Co.",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-15",
+      "source_pdf": "docs/JPM/JPM FQ3 25.pdf",
+      "document_id": "JPM_FQ3_2025"
+    },
+    {
+      "issuer": "jpm",
+      "company": "JPMorgan Chase & Co.",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-11",
+      "source_pdf": "docs/JPM/JPM FQ1 26.html",
+      "document_id": "JPM_FQ1_2026"
+    }
+  ]
+}

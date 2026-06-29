@@ -1,0 +1,49 @@
+{
+  "issuer": "netflix",
+  "reports": [
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-17",
+      "source_pdf": "docs/netflix/FQ2 25.pdf",
+      "document_id": "NFLX_FQ2_2025"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-21",
+      "source_pdf": "docs/netflix/FQ3 25.pdf",
+      "document_id": "NFLX_FQ3_2025"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-20",
+      "source_pdf": "docs/netflix/FQ4 25.pdf",
+      "document_id": "NFLX_FQ4_2025"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-16",
+      "source_pdf": "docs/netflix/FQ1 26.pdf",
+      "document_id": "NFLX_FQ1_2026"
+    }
+  ]
+}
