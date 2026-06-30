@@ -1,0 +1,4 @@
+run_id,document_id,issuer,company,ticker,fiscal_period,report_date,source_pdf,model,input_tokens,output_tokens,total_tokens,cached_input,estimated_cost_usd,latency_seconds,signal,sentiment_score,status
+20260624T130922Z,JPM_FQ1_2025,jpm,JPMorgan Chase & Co.,JPM,FQ1 2025,2025-04-11,C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\docs\JPM\JPM FQ1 25.pdf,deepseek-v4-flash,16399,1838,18237,False,0.00645,14.33,HOLD,-0.1,success
+20260624T130922Z,JPM_FQ3_2025,jpm,JPMorgan Chase & Co.,JPM,FQ3 2025,2025-10-15,C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\docs\JPM\JPM FQ3 25.pdf,deepseek-v4-flash,14967,2214,17181,True,0.003483,14.47,BUY,0.55,success
+20260624T130922Z,JPM_FQ1_2026,jpm,JPMorgan Chase & Co.,JPM,FQ1 2026,2026-04-11,C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\docs\JPM\JPM FQ1 26.html,deepseek-v4-flash,19185,2352,21537,True,0.00393,15.23,BUY,0.3,success

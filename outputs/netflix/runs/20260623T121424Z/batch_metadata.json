@@ -1,0 +1,17 @@
+{
+  "run_id": "20260623T121424Z",
+  "issuer": "netflix",
+  "manifest": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\manifests\\netflix_reports.json",
+  "dry_run": true,
+  "skip_extract": false,
+  "consistency_runs": 0,
+  "model": "deepseek-chat",
+  "hold_upper": 0.15,
+  "hold_lower": -0.15,
+  "reports_queued": [
+    "NFLX_FQ2_2025"
+  ],
+  "failures": 0,
+  "first_run_summary_path": "",
+  "consistency_summary_path": ""
+}

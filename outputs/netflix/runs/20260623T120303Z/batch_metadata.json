@@ -1,0 +1,13 @@
+{
+  "run_id": "20260623T120303Z",
+  "issuer": "netflix",
+  "reports_queued": [
+    "NFLX_FQ2_2025",
+    "NFLX_FQ3_2025",
+    "NFLX_FQ4_2025",
+    "NFLX_FQ1_2026"
+  ],
+  "first_run_summary_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\runs\\20260623T120303Z\\summary\\netflix_first_run_summary_20260623T120303Z.csv",
+  "consistency_summary_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\runs\\20260623T120303Z\\summary\\netflix_consistency_summary_20260623T120303Z.json",
+  "repaired_from_existing_outputs": true
+}

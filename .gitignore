@@ -2,6 +2,5 @@
 *.pyc
 __pycache__/
 .venv/
-outputs/
 .claude/
 .agents/

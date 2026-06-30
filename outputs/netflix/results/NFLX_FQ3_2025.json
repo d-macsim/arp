@@ -1,0 +1,146 @@
+{
+  "document_id": "NFLX_FQ3_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document reports revenue in line with expectations and strong progress in advertising (more than doubling ad revenue) and engagement (record TV share in US/UK). However, EPS missed consensus by 15.78% due to a one-time Brazilian tax matter, and management refrained from providing 2026 guidance. The overall tone is confident and optimistic about long-term growth, but the EPS miss and lack of forward guidance temper the bullishness."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "summary": {
+    "revenue": "Revenue in Q3 2025 was $11,510.31 million, in line with consensus of $11,511.20 million (0.01% surprise).",
+    "eps": "EPS normalized was $5.87, missing consensus of $6.97 by 15.78%.",
+    "guidance": "Full year 2026 guidance will be issued on the next call in January. Financial objectives are to sustain healthy revenue growth, expand margins, and increase free cash flow.",
+    "margin": "Operating income would have exceeded forecast absent the Brazilian tax matter. No specific margin percentage disclosed.",
+    "key_risks": [
+      "Brazilian tax matter (CIDE) resulted in a one-time expense booked in Q3 2025, covering periods from 2022 through Q3 2025, impacting operating income.",
+      "Potential industry consolidation could reshape competitive landscape, though management views it as not a fundamental shift.",
+      "Dependence on third-party content licensing may ebb and flow as competitors are also suppliers."
+    ],
+    "key_opportunities": [
+      "Advertising revenue on track to more than double in 2025, with strong growth in upfront commitments and programmatic.",
+      "Record TV view share in US (8.6%) and UK (9.4%) in Q3 2025.",
+      "Live events (e.g., Canelo-Crawford fight, NFL Christmas games, WWE) driving outsized engagement and acquisition.",
+      "Games and interactivity (e.g., party games on TV) seen as a long-term growth driver.",
+      "AI and ML investments to improve product experiences, content production, and advertising.",
+      "Massive addressable market: only ~7% of consumer spending and ~10% of TV time in biggest market."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'we think the business is very healthy,' 'we feel great about the business,' and 'we are as energized as ever,' indicating strong confidence in the company's trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue in Q3 2025 was $11,510.31 million, in line with consensus.",
+      "quote": "We had a good Q3. We had revenue in line with expectations. Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS normalized was $5.87, missing consensus of $6.97 by 15.78%.",
+      "quote": "FQ3 2025 EPS Normalized Consensus 6.97 Actual 5.87 Surprise (15.78%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2026 guidance will be issued on the next call in January.",
+      "quote": "We'll issue a full year 2026 guidance on our next call in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income would have exceeded forecast absent the Brazilian tax matter.",
+      "quote": "Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brazilian tax matter (CIDE) resulted in a one-time expense booked in Q3 2025.",
+      "quote": "It's a gross tax on outbound payments and it's called the Contribution for Intervention and Economic Domain... we recorded the expense in Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue on track to more than double in 2025.",
+      "quote": "We are now on track to more than double ad revenue this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record TV view share in US (8.6%) and UK (9.4%) in Q3 2025.",
+      "quote": "We achieved record share of TV time in Q3 in both the U.S. and the U.K. ... in Q3, we achieved our highest quarterly view share ever in the United States at 8.6%. And then the U.K. at 9.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live events driving outsized engagement and acquisition.",
+      "quote": "We believe these big events that attract mass audiences are kind of differentially valuable for our members. It's a kind of urgent viewing that our members love and value. So these events typically have outsized positives for conversation for acquisition, and we strongly suspect retention.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games and interactivity seen as a long-term growth driver.",
+      "quote": "We see this initiative as more about interactivity broadly. And how does interactivity become complementary to linear storytelling, how is it able to unlock whole new entertainment experiences.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI and ML investments to improve product experiences, content production, and advertising.",
+      "quote": "We see huge number of places in the business where we can bring these technologies in. They provide more capable tools, they improve productivity, they improve velocity of innovation. They deliver better results from members, for creators, for partners.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Massive addressable market: only ~7% of consumer spending and ~10% of TV time.",
+      "quote": "We continue to have a massive opportunity since we're only about 7% of the addressable market, in terms of consumer spending and only about 10% of time spent on TV in our biggest market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We think the business is very healthy. We feel good about our progress on our key initiatives. We've got also a lot of opportunity ahead of us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin percentage was disclosed; only that operating income would have exceeded forecast absent the tax matter. This is inferred from the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2025-10-21",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-21",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf",
+    "document_id": "NFLX_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260623T120303Z",
+    "timestamp": "2026-06-23T12:04:39Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2025.txt",
+    "extracted_characters": 45719
+  }
+}

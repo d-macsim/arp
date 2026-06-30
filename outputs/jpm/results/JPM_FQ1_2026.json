@@ -1,0 +1,161 @@
+{
+  "document_id": "JPM_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong Q1 results with net income of $16.5 billion, EPS of $5.94, and revenue up 10% year-over-year, alongside reaffirmed full-year guidance for NII and expenses. However, management repeatedly highlighted significant regulatory headwinds from Basel III endgame and G-SIB reproposals that would increase capital requirements and potentially hurt competitiveness, creating a mixed but still positive tone."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "summary": {
+    "revenue": "$50.5 billion, up 10% year-over-year, driven by higher Markets, Asset Management, and Investment Banking fees, as well as higher net interest income.",
+    "eps": "Diluted EPS of $5.94, with net income of $16.5 billion.",
+    "guidance": "Full-year 2026 NII ex Markets expected to be about $95 billion, total NII approximately $103 billion, adjusted expense outlook unchanged at $105 billion, and Card net charge-off rate continues at approximately 3.4%.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Basel III endgame and G-SIB reproposals would increase CET1 capital by about 4% for JPMorgan, while the Fed estimates a 5% reduction for peers, potentially disadvantaging the firm.",
+      "G-SIB surcharge projected to rise from 4.5% to 5.2% by 2028, adding an estimated $20 billion in required G-SIB capital.",
+      "Cyber risk described as the bank's 'largest risk,' exacerbated by advances in AI.",
+      "Potential credit cycle: Chairman Dimon cautioned that if a credit cycle occurs, losses will be worse than people expect relative to the scenario.",
+      "Regulatory changes could create a 'significant disincentive' to certain markets activities, impacting U.S. capital market depth."
+    ],
+    "key_opportunities": [
+      "Strong business momentum with double-digit revenue increases across key segments (CIB revenue up 19%, AWM revenue up 11%, CCB revenue up 7%).",
+      "Robust client asset growth: AUM up 16% to $4.8 trillion, client assets up 18% to $7.1 trillion.",
+      "Investment banking fees up 28% year-over-year, with healthy pipelines.",
+      "Home lending originations up 46% year-over-year, driven by refinance activity.",
+      "Consumer deposit growth with net new checking accounts rising by over 450,000 this quarter."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in strong operational results and reaffirmed guidance, but repeatedly voiced serious concerns about regulatory capital increases and their impact on competitiveness, with CFO Barnum stating 'our results are worse in each category' and Chairman Dimon labeling cyber as the 'largest risk.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $50.5 billion, up 10% year-over-year.",
+      "quote": "Revenue of $50.5 billion was up 10% year-on-year, primarily driven by higher Markets revenue, higher Asset Management and Investment Banking fees and higher NII, driven by the impact of balance sheet growth, predominantly offset by the impact of lower rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $5.94 with net income of $16.5 billion.",
+      "quote": "This quarter, the firm reported net income of $16.5 billion and EPS of $5.94, with an ROTCE of 23%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 NII ex Markets guidance is about $95 billion, total NII approximately $103 billion, adjusted expense outlook unchanged at $105 billion, and Card net charge-off rate continues at approximately 3.4%.",
+      "quote": "In terms of the full year 2026 outlook, we continue to expect NII ex Markets to be about $95 billion. We now expect total NII to be approximately $103 billion as a function of market NII decreasing to about $8 billion, predominantly due to rates, which we expect will be primarily offset in NIR. The adjusted expense outlook continues to be about $105 billion and the Card net charge-off rate continues to be approximately 3.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basel III endgame and G-SIB reproposals would increase CET1 capital by about 4% for JPMorgan, while the Fed estimates a 5% reduction for peers.",
+      "quote": "Our results are worse in each category, estimated RWA is higher, G-SIB is worse. And because our CCAR losses are below the floor, the Fed's reduction is not going to apply to us. The result is that under the proposed rules, our CET1 capital would increase around 4%, while the Fed's estimate for large banks is about a 5% reduction.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "G-SIB surcharge projected to rise from 4.5% to 5.2% by 2028, adding an estimated $20 billion in required G-SIB capital.",
+      "quote": "The net result is that we need to plan for 5.2% in 2028, a 70 basis point increase from the current 4.5% requirement, which, when combined with the RWA increase from the Basel III endgame NPR results in a total increase of about $20 billion of G-SIB capital based on our current balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cyber risk is described as the bank's 'largest risk,' exacerbated by advances in AI.",
+      "quote": "So cyber -- we've been talking about cyber risk for a long time. In fact, I think I said in the Chairman's letter, it is our largest risk. ... AI has made it worse, it's made it harder.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chairman Dimon cautioned that if a credit cycle occurs, losses will be worse than people expect.",
+      "quote": "I'd pointed out that if there's a credit cycle, I do expect it will be worse than people think relative to the scenario. It's not a disaster. We're used to the credit cycles. We'll be big boys about it. But asset prices will go down, credit spreads will going down. People may get a little nervous about some of those things.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Regulatory changes could create a 'significant disincentive' to certain markets activities.",
+      "quote": "And I guess I don't really have more to say unless you ask a big question on G-SIB, but that is the one area where we think it's kind of a significant disincentive to a particular type of business, in particular some markets business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CIB revenue up 19% year-over-year.",
+      "quote": "Next, the CIB reported net income of $9 billion. revenue of $23.4 billion was up 19% year-on-year, driven by higher revenues across the businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM revenue up 11% year-over-year, AUM up 16% to $4.8 trillion, client assets up 18% to $7.1 trillion.",
+      "quote": "Revenue of $6.4 billion was up 11% year-on-year, predominantly driven by growth in management fees on strong net inflows and higher average market levels as well as higher brokerage activity. ... AUM of $4.8 trillion was up 16% year-on-year and client assets of $7.1 trillion were up 18% year-on-year, driven by higher market levels and continued net inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 28% year-over-year.",
+      "quote": "To give a bit more color IB fees were up 28% year-on-year, driven by strong performance across M&A and equity underwriting, partially offset by lower debt underwriting.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Home lending originations up 46% year-over-year.",
+      "quote": "And in Home Lending, originations of $13.7 billion increased 46% year-on-year predominantly driven by refi performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer deposits grew 2% with net new checking accounts rising by over 450,000.",
+      "quote": "Average deposits were up 2% year-on-year and quarter-on-quarter, driven by account growth and moderating yield-seeking flows. ... net new checking accounts, where I think we said in the EPR that we did over 450,000 this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, balancing strong results with serious regulatory concerns.",
+      "quote": "Our results are worse in each category, estimated RWA is higher, G-SIB is worse. ... This quarter, the firm reported net income of $16.5 billion and EPS of $5.94, with an ROTCE of 23%. Revenue of $50.5 billion was up 10% year-on-year.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary was found in the document; set to 'Not disclosed'."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "JPM_Earnings Call Transcript_2026-04-11",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-11",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\JPM\\JPM FQ1 26.html",
+    "document_id": "JPM_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260624T130922Z",
+    "timestamp": "2026-06-24T13:10:12Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\JPM\\JPM FQ1 26.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "page_count": 1,
+    "extracted_characters": 81500,
+    "extractor_used": "html.parser",
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2026.txt"
+  }
+}

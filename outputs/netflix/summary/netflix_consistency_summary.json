@@ -1,0 +1,78 @@
+{
+  "run_id": "20260623T120303Z",
+  "issuer": "netflix",
+  "reports": [
+    {
+      "run_id": "20260623T120303Z",
+      "document_id": "NFLX_FQ1_2026",
+      "n_runs": 3,
+      "signals": [
+        "BUY",
+        "BUY",
+        "BUY"
+      ],
+      "scores": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "signal_agreement": true,
+      "score_range": 0.0,
+      "total_cost_usd": 0.007939
+    },
+    {
+      "run_id": "20260623T120303Z",
+      "document_id": "NFLX_FQ2_2025",
+      "n_runs": 3,
+      "signals": [
+        "BUY",
+        "BUY",
+        "BUY"
+      ],
+      "scores": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "signal_agreement": true,
+      "score_range": 0.0,
+      "total_cost_usd": 0.009956
+    },
+    {
+      "run_id": "20260623T120303Z",
+      "document_id": "NFLX_FQ3_2025",
+      "n_runs": 3,
+      "signals": [
+        "BUY",
+        "BUY",
+        "BUY"
+      ],
+      "scores": [
+        0.35,
+        0.35,
+        0.55
+      ],
+      "signal_agreement": true,
+      "score_range": 0.2,
+      "total_cost_usd": 0.007305
+    },
+    {
+      "run_id": "20260623T120303Z",
+      "document_id": "NFLX_FQ4_2025",
+      "n_runs": 3,
+      "signals": [
+        "BUY",
+        "BUY",
+        "BUY"
+      ],
+      "scores": [
+        0.7,
+        0.65,
+        0.7
+      ],
+      "signal_agreement": true,
+      "score_range": 0.05,
+      "total_cost_usd": 0.009614
+    }
+  ]
+}

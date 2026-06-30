@@ -1,0 +1,166 @@
+{
+  "document_id": "JPM_FQ1_2025",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The document reports solid Q1 results (net income $14.6B, EPS $5.07, revenue up 8% YoY) but management's tone is heavily cautious due to extreme macro uncertainty, tariff impacts, and a 50% recession probability cited by their economist. While the firm maintains strong capital and liquidity, the forward-looking commentary emphasizes elevated risks, a wait-and-see attitude from clients, and potential negative impacts on earnings and guidance, which tempers the positive quarterly performance."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "summary": {
+    "revenue": "$46 billion, up $3.5 billion or 8% year-on-year.",
+    "eps": "$5.07.",
+    "guidance": "NII ex. Markets expected to be approximately $90 billion; Firmwide NII outlook increased to about $94.5 billion; adjusted expense outlook continues to be about $95 billion; Card net charge-off rate expected to be approximately 3.6%.",
+    "margin": "ROTCE of 21%.",
+    "key_risks": [
+      "Elevated macro uncertainty and potential recession (economist sees 50-50 chance).",
+      "Tariff impacts causing client wait-and-see attitude, potentially reducing IB pipeline and origination.",
+      "Lower expected front-end rates creating headwind for NII ex. Markets.",
+      "Potential for credit losses to increase if economy worsens.",
+      "Geopolitical tensions and trade wars could affect the firm as an international U.S. company."
+    ],
+    "key_opportunities": [
+      "Record performance in Equities Markets revenue (up 48% YoY) driven by elevated volatility and client activity.",
+      "Strong net inflows in Asset & Wealth Management ($54B long-term, $36B liquidity).",
+      "Potential regulatory reform (SLR, G-SIFI, CCAR, Basel III) could free up capital and liquidity for lending.",
+      "Higher wholesale deposit balances and beta outperformance in CDs and wholesale."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasizes 'unusually uncertain' conditions, a 'wait-and-see attitude' from clients, and the need to prepare for a wide range of outcomes, while still expressing confidence in the firm's ability to weather storms."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $46 billion, up 8% year-on-year.",
+      "quote": "The Firm reported revenue of $46 billion, up $3.5 billion, or 8% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $5.07.",
+      "quote": "the Firm reported net income of $14.6 billion, EPS of $5.07 on revenue of $46 billion, with an ROTCE of 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex. Markets guidance is approximately $90 billion.",
+      "quote": "We continue to expect NII ex. Markets to be approximately $90 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Firmwide NII outlook increased to about $94.5 billion.",
+      "quote": "The Firmwide NII outlook has increased to about $94.5 billion, reflecting an increase in Markets NII, which you should think of as being primarily offset in NIR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense outlook continues to be about $95 billion.",
+      "quote": "Our adjusted expense outlook continues to be about $95 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate expected to be approximately 3.6%.",
+      "quote": "And on credit, we expect the Card net charge-off rate to be in line with our previous guidance of approximately 3.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE was 21%.",
+      "quote": "the Firm reported net income of $14.6 billion, EPS of $5.07 on revenue of $46 billion, with an ROTCE of 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious due to extreme uncertainty.",
+      "quote": "But of course, the focus right now is on the future, which is obviously unusually uncertain.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economist sees 50-50 chance of recession.",
+      "quote": "I called him this morning, specifically to ask him, how they're looking at their forecast today, they think it's about 50-50 for a recession.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Client wait-and-see attitude impacting IB pipeline.",
+      "quote": "In light of market conditions, we are adopting a cautious stance on the Investment Banking outlook. While client engagement and dialog is quite elevated, both the conversion of the existing pipeline and origination of new activity will require a reduction in the current levels of uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equities Markets revenue up 48% YoY, record performance.",
+      "quote": "Equities was up 48% as the business performed well during a period of elevated volatility, supported by higher client activity and strong monetization of flows, particularly in Derivatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM had strong net inflows: $54B long-term, $36B liquidity.",
+      "quote": "Long-term net inflows were $54 billion for the quarter, primarily driven by Equity and Fixed Income. In liquidity, we saw net inflows of $36 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential regulatory reform could free up capital.",
+      "quote": "If you do all – you have to fix LCR, G-SIFI, CCAR, SLR, and I think would free up hundreds of billions of dollars for JPMorgan annually of various types of lending to the system.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower expected front-end rates are a headwind for NII.",
+      "quote": "the drop in the weighted-average IORB, which is about 22 basis points, should produce a notable headwind in our NII ex. Markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical and trade war risks could affect the firm.",
+      "quote": "I honestly add that to the list of worries. We will be in the crosshairs. That's what's going to happen. And it's okay. We're deeply embedded in these other countries, people like us. But I do think some clients or some countries will feel differently about American banks, and we'll just have to deal with that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) despite strong Q1 results, because the cautious forward-looking tone dominates. A reviewer may consider whether the positive earnings beat should push the score higher."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Earnings Call Transcript_2025-04-11",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-11",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\JPM\\JPM FQ1 25.pdf",
+    "document_id": "JPM_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260624T130922Z",
+    "timestamp": "2026-06-24T13:09:40Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\JPM\\JPM FQ1 25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "page_count": 21,
+    "extracted_characters": 96629,
+    "extractor_used": "pypdf",
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2025.txt"
+  }
+}

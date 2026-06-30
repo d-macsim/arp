@@ -1,0 +1,19 @@
+{
+  "run_id": "20260624T130840Z",
+  "issuer": "jpm",
+  "manifest": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\manifests\\jpm_reports.json",
+  "dry_run": true,
+  "skip_extract": false,
+  "consistency_runs": 0,
+  "model": "deepseek-chat",
+  "hold_upper": 0.15,
+  "hold_lower": -0.15,
+  "reports_queued": [
+    "JPM_FQ1_2025",
+    "JPM_FQ3_2025",
+    "JPM_FQ1_2026"
+  ],
+  "failures": 0,
+  "first_run_summary_path": "",
+  "consistency_summary_path": ""
+}

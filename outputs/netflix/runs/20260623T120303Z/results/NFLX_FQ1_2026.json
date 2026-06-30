@@ -1,0 +1,132 @@
+{
+  "document_id": "NFLX_FQ1_2026",
+  "sentiment": {
+    "score": 0.7,
+    "rationale": "The document reports a strong EPS beat (actual $1.23 vs consensus $0.77, +59.74%) and revenue slightly above consensus ($12,249.76M vs $12,173.11M). Management maintains full-year guidance of 12-14% revenue growth and 31.5% operating margin, with advertising revenue expected to double to ~$3 billion. The tone is confident, highlighting record engagement metrics, strong regional performance, and disciplined capital allocation after walking away from the Warner Bros. deal. No material risks or guidance cuts are disclosed, supporting a high positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "summary": {
+    "revenue": "Reported revenue of $12,249.76 million for FQ1 2026, slightly above consensus of $12,173.11 million (0.63% surprise). Management expects full-year 2026 revenue growth of 12% to 14%.",
+    "eps": "Reported EPS normalized of $1.23 for FQ1 2026, significantly above consensus of $0.77 (59.74% surprise).",
+    "guidance": "Maintaining full-year 2026 guidance: revenue growth of 12% to 14%, operating margin at 31.5%, and advertising revenue roughly doubling to about $3 billion.",
+    "margin": "Operating margin guidance for full-year 2026 is 31.5%.",
+    "key_risks": [
+      "Potential distraction from M&A activity (though management states they did not lose focus on core business).",
+      "Nielsen methodology change could affect reported streaming viewership metrics, but management notes no change in actual consumer behavior or ad revenue impact."
+    ],
+    "key_opportunities": [
+      "Advertising business expected to roughly double to about $3 billion in 2026.",
+      "Expansion into new content categories: live sports (e.g., World Baseball Classic), podcasting, and gaming (e.g., Netflix Playground for kids).",
+      "Significant room for growth: under 45% penetration of addressable households, only 5% of global TV view share.",
+      "Strong APAC performance led by Japan, India, Korea, and Southeast Asia.",
+      "AI and technology investments (e.g., InterPositive acquisition) to improve content creation, personalization, and advertising."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'really good progress,' 'solid momentum,' 'strong outlook,' and 'we really feel great about the business,' indicating high confidence in the organic growth opportunity."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $12,249.76 million for FQ1 2026, slightly above consensus.",
+      "quote": "Revenue (mm) 12173.11 12249.76 0.63",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS normalized of $1.23 for FQ1 2026, significantly above consensus of $0.77.",
+      "quote": "EPS Normalized 0.77 1.23 59.74",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management maintains full-year 2026 guidance: revenue growth 12-14%, operating margin 31.5%.",
+      "quote": "we are maintaining our guidance, our strong outlook for organic growth that we established for 2026. That's revenue growth of 12% to 14%, operating margin at 31.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue expected to roughly double to about $3 billion in 2026.",
+      "quote": "That includes roughly doubling the advertising business to about USD 3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin guidance for full-year 2026 is 31.5%.",
+      "quote": "operating margin at 31.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential distraction from M&A activity is a risk, but management states they did not lose focus.",
+      "quote": "Our biggest risk was losing focus on our core business while we're working on the transaction. So as you can see from our Q1 results, we did not lose focus.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nielsen methodology change could affect reported streaming viewership metrics, but no change in actual behavior or ad revenue impact.",
+      "quote": "Nielsen's methodology change in the gauge reporting is a change in how they calculate the national TV universe. So it's not a change in how people actually watch TV. ... none of this changes our effectiveness or our aspirations in the ad space.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Significant room for growth: under 45% penetration of addressable households, only 5% of global TV view share.",
+      "quote": "we're still under 45% penetrated in terms of that number. ... we estimate that we account for only 5% of TV view share globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong APAC performance led by Japan, India, Korea, and Southeast Asia.",
+      "quote": "APAC was our strongest FX-neutral revenue growth market for the quarter ... We had a great quarter in India, really strong quarter in Korea, Southeast Asia has showed strength.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we've seen really good progress so far in this first quarter that builds on the solid momentum and results from 2025. ... we really feel great about the business, about the organic growth opportunity ahead",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.70 is very high but just below the 0.70 threshold for 'unambiguously strong beat' anchor. The EPS beat is large (+59.74%), but revenue surprise is modest (0.63%). Guidance is maintained, not raised. A human reviewer should confirm whether the score should be slightly lower (e.g., 0.65) given the lack of raised guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2026-04-16",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf",
+    "document_id": "NFLX_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260623T120303Z",
+    "timestamp": "2026-06-23T12:06:47Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2026.txt",
+    "extracted_characters": 51508
+  }
+}
